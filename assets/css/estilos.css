@@ -1,0 +1,42 @@
+.main-section {
+  background-image: url("../img/img-main.jpeg");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  height: 100px;
+}
+
+.card img {
+  height: 250px;
+}
+
+.acepta {
+  color: green;
+}
+
+.rechaza {
+  color: red;
+}
+
+#inmuebles {
+  display: flex;
+}
+
+.inmueble {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.imgInmueble {
+  border: solid 1px red;
+  width: 100%;
+  object-fit: cover;
+}
